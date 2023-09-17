@@ -14,6 +14,10 @@ body {
   width: 150vh;
   height: 94vh;
   border-radius: 4%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .slider__container {
@@ -194,4 +198,24 @@ body {
 
 .slider__captions {
   margin-left: 18.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .full__slider_container {
+    height: 104vh;
+    gap: 3vh;
+  }
+
+  .slide__title {
+    margin-left: -29.5rem;
+  }
+
+  .slider__nav {
+    flex-direction: column;
+    gap: 3vh;
+  }
+
+  .slider__controls {
+    margin-right: 0;
+  }
 }
