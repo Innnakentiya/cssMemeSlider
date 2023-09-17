@@ -4,10 +4,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>CssMemeSlider</title>
 </head>
 
 <body>
+    <div class="full__slider_container">
+
+        <input type="radio" id="radio1" class="slider__input" name="slider__button" checked>
+        <input type="radio" id="radio2" class="slider__input" name="slider__button">
+        <input type="radio" id="radio3" class="slider__input" name="slider__button">
+        <input type="radio" id="radio4" class="slider__input" name="slider__button">
+
+        <div class="slider__container">
+            <div class="slider__items">
+                <div class="slide1">
+                    <img class="slider__item" src="images/img1.jpg" alt="clients_users">
+                </div>
+                <div class="slide2">
+                    <img class="slider__item" src="images/img2.jpg" alt="bus">
+                </div>
+                <div class="slide3">
+                    <img class="slider__item" src="images/img3.png" alt="front_back">
+                </div>
+                <div class="slide4">
+                    <img class="slider__item" src="images/img4.png" alt="front_back_rock">
+                </div>
+            </div>
+        </div>
+        <div class="slider__nav">
+            <div class="slider__controls">
+
+                <label for="radio1" class="slider__label" data-caption="caption1">
+                    <div></div>
+                </label>
+
+
+                <label for="radio2" class="slider__label" data-caption="caption2">
+                    <div></div>
+                </label>
+
+
+                <label for="radio3" class="slider__label" data-caption="caption3">
+                    <div></div>
+                </label>
+
+
+                <label for="radio4" class="slider__label" data-caption="caption4">
+                    <div></div>
+                </label>
+
+            </div>
+            <div class="slider__captions">
+                <div class="slide__content caption1">
+                    <h2 class="slide__title">Think like a user!</h2>
+                </div>
+                <div class="slide__content caption2">
+                    <h2 class="slide__title">Be on the bright side!</h2>
+                </div>
+                <div class="slide__content caption3">
+                    <h2 class="slide__title">Do what you love!</h2>
+                </div>
+                <div class="slide__content caption4">
+                    <h2 class="slide__title">See the situation from different angles!</h2>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 
